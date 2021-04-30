@@ -35,7 +35,7 @@ You can only write single-line codes with '>', but surrounding the code with `{ 
 With Path, you can add a reaction to the message and can move the scene when the same reaction is added.   
 `:<name of emoji>: => #<scene number>` is a basic form of the path. It adds an emoji to the message from Discord's default emojis. And when the user clicks the reaction, The scene is moved.   
 You can write an id of your custom emoji insteds of the name of a default emoji.   
-You also can skip emoji name just like `=> #3`, It works as same as `:white_check_mark: => #3`. Some of the emojis can be shortened by using `.:<shortcut>:` instead of `:<full name>`. The shortcut includes: `0`, `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `10`, `a`, `b`, `c`, `d`, `e`, `f`, `h`, `i`, `j`, `k`, `l`, `m`, `n`, `o`, `p`, `q`, `r`, `s`, `t`, `u`, `v`, `w`, `x`, `y`, `z`   
+You also can skip emoji name just like `=> #3`, It works as same as `:white_check_mark: => #3`. Some of the emojis can be shortened by using `.:<shortcut>:` instead of `:<full name>:`. The shortcut includes: `0`, `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `10`, `a`, `b`, `c`, `d`, `e`, `f`, `h`, `i`, `j`, `k`, `l`, `m`, `n`, `o`, `p`, `q`, `r`, `s`, `t`, `u`, `v`, `w`, `x`, `y`, `z`   
 If you replace `=>` into `->`, the reaction of the emoji won't be added so you can make a secret path with it.   
 If there is no path on the scene, that scene will be an ending scene and the story will be stoped.
 ```
